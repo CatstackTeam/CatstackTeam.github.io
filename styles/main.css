@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+header {
+	width: 100%;
+	padding: 15px 0px 15px 0px;
+	background: #FFD27B;
+}
+
+#logo_text {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 56px;
+	
+	text-decoration: none;
+
+	color: #FFFFFF;
+}
+
+.main_logo {
+	margin-left: 11px;
+	width: max-content;
+	padding: 4px 8px 4px 8px;
+}
+
+.main_logo:hover {
+	background: #0001;
+}
+
+.main_content {
+	margin-top: 20%;
+	text-align: center;
+	
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+
+	color: #000000;
+}
